@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 1.0</title>
+<!-- <link href="html_css_file.css" rel="stylesheet" type="text/css"> -->
+<style>
+fieldset {
+background:lightyellow;
+border-style: solid;
+border-width:10px;
+border-color:yellow;
+margin-bottom:10px;
+width:720px;
+}
+
+label {
+width: 180px;
+display: inline-block;
+text-align: right;
+vertical-align: top;
+}
+
+.radio_check { 
+width:auto; 
+}
+
+textarea {
+width:360px;
+height:50px;
+
+}
+
+span {
+
+text-align: center;
+vertical-align: top;
+
+}
+
+#span1 {
+width: 75px;
+height: 20px;
+display: inline-block;
+background-color: red;
+color: white;
+
+}
+
+#span2 {
+width: 75px;
+height: 20px;
+display: inline-block;
+background-color: purple;
+color: white;
+}
+ 
+</style>
+</head>
+
+<body>
+ <h1>Please Enter Your Details For Our Dating Website!</h1><br>
+ 
+<form action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post" enctype="multipart/form-data">
+
+<fieldset>
+<legend>Your Face</legend>
+<label for="yourImage">Your image:</label>
+<input type="file" id="yourImage" name="imgToUpload" required><br>
+<label for="imagePreview">Image preview:</label><br>
+</fieldset>
+            
+<fieldset>
+<legend>Your General Details</legend>
+
+<label for="userName">Name: </label>
+<input type="textarea" id="userName" name="userName" placeholder="Your full name" required><br>
+                
+<div class="radio_check"><label for="gender">Gender:</label>
+<input type="radio" id="gender" name="gender" value="Male" required>Male
+<input type="radio" id="gender" name="gender" value="Female" required>Female<br>
+</div>
+  
+<label for="age">Age:</label>
+<input type="number" value="18" min="0" max="120" step="1" id="age" name="age" required><br>
+<label for="dateOfBirth">Date of Birth:</label>
+<input type="date" id="dateOfBirth" name="dateOfBirth"><br>
+  
+  
+<label for="favColor">Favourite color:</label>
+<input type="color" id="favColor" name="favColor" ><br>
+
+<label for="country">Which country:</label>
+<select name="country" id="country">
+    <option value="none"></option>
+    <option value="USA">USA</option>
+    <option value="Mexico">Mexico</option>
+    <option value="Canada">Canada</option>
+    <option value="Costa_Rica">Costa Rica</option>
+    <option value="Argentina">Argentina</option>
+</select><br>
+</fieldset>
+            
+<fieldset>
+<legend>Your indicators</legend>
+<label for="height">Height:</label>
+
+<span id="span1">Short</span><input type="range" id="height" name="height" min="0" max="100" step="5" value="50"><span id="span2">Tall</span><br>
+<label for="salary">Salary:</label>
+<span id="span1">Poor</span><input type="range" id="salary" name="salary" min="0" max="100" step="5" value="50"><span id="span2">Rich</span><br>
+
+</fieldset>
+            
+<fieldset>
+<legend>Your Contact Information</legend>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br>
+                
+<label for="mobile">Mobile:</label>
+<input type="tel" id="mobile" name="mobile"><br>
+
+<label for="address">Address:</label>
+<textarea id="address" name="address"></textarea><br>
+
+           
+<div class="radio_check"><label for="contact">Method to contact you:</label>
+<input type="checkbox" id="contact" name="contact" value="Email">Email
+<input type="checkbox" id="contact" name="contact" value="Whatsapp">Whatsapp
+<input type="checkbox" id="contact" name="contact" value="In_app_chart">In-app chart
+</div>
+</fieldset>
+         
+<input type="submit" name="Submit"> 
+</form>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
