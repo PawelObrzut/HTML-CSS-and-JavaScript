@@ -1,6 +1,6 @@
 # Syllabus
 
-Week 1
+Week 1<br>
 HTML & CSS
 
 Welcome!
