@@ -1,17 +1,17 @@
 # Syllabus
 
 Week 1<br>
-HTML & CSS
+HTML & CSS<br>
 
-Welcome!
-The Basics of HTML
-Multimedia
-Strengthening Your Knowledge of HTML
-Handling Forms
-Grouping
-Further Resources
-HTML & CSS - Assessment Task
-Assignment: Dating Web Site Assessment
+Welcome!<br>
+The Basics of HTML<br>
+Multimedia<br>
+Strengthening Your Knowledge of HTML<br>
+Handling Forms<br>
+Grouping<br>
+Further Resources<br>
+HTML & CSS - Assessment Task<br>
+Assignment: Dating Web Site Assessment<br>
 
 
 Week 2
